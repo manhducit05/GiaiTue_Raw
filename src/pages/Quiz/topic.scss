@@ -1,0 +1,16 @@
+.listQuiz{
+    margin-left: 100px;
+    &__title{
+        font-weight: 550;
+    }
+    &__answer{
+        margin-left: 30px;
+        & input{
+            margin-right: 5px;
+        }
+    }
+    &__btn{
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+}
